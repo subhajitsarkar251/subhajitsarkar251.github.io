@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Title -->
         <title>RENT ASSISTANT</title>
-        <!--fontawasom icon-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+        <!--Material Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
          <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <!--Custom css-->
@@ -23,8 +23,8 @@
                    </h1>
                 </div>
                 <!--Location-->
-                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="material-icons">reorder</span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
@@ -42,15 +42,21 @@
                     <div class="md-form mt-0">
                         <input class="form-control" type="text" placeholder="What are you looking for?">
                     <!--Search btn-->
-                        <button  type="button" class="btn btn-link "><i class="fa fa-search" aria-hidden="true"></i></button>
+                        <button type="submit" class="btn btn-link ">
+                            <span class="material-icons">search</span>
+                        </button>
                        </div>
                     </form>
                     <form>
                 <!--wishlist-->
-                        <button type="button" class="btn btn-link"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-link">
+                            <span class="material-icons hicon">favorite_border</span>
+                        </button>
                     
                 <!--login btn-->
-                        <button type="button" class="btn btn-link"><i class="fa fa-user-circle" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-link">
+                            <span class="material-icons">account_circle</span>
+                        </button>
                     </form>
                     </div>
                     </div>
@@ -119,8 +125,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, vel?
                 <br><br><br>
             </div>
+            <div class="">
+                <p>©2020 Made with <span class="material-icons hicon">favorite</span> and </p>
+            </div>
         </footer>
         <!-- bootstrap js-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </body>
 </html>
