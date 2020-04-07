@@ -4,3 +4,9 @@
     margin-bottom: 20px;
         
 }
+/**icon hard**/
+.fa-heart{
+    color: red;
+    background-color: transparent;
+    border:none;
+}
