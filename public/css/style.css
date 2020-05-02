@@ -1,115 +1,155 @@
-
 /***navigation hader****/
-header{
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.fbdy{
-        margin: 10px;
-        
-    }
-.fhd{
-   margin-left: 300px;
-}
-    
-.nvh{
-    margin: auto;
-    
-    
-}
-/********shop list style*********/
-.scrd{
-    padding:10px;
-    box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+
+.fbdy {
     margin: 10px;
-        
+
 }
-.spd{
-   padding-left: 190px;
+
+.fhd {
+    margin-left: 300px;
+}
+
+.nvh {
+    margin: auto;
+
+
+}
+
+/********shop list style*********/
+.scrd {
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+    margin: 10px;
+
+}
+
+.spd {
+    padding-left: 190px;
     padding-top: 30px;
 }
 
 
 /********icon pack***********/
-.fa-heart{
+.fa-heart {
     color: red;
     background-color: transparent;
-    border:none;
-    padding-right:10px;
+    border: none;
+    padding-right: 10px;
 }
-.fa-user-circle{
+
+.fa-user-circle {
     color: black;
     background-color: transparent;
-    border:none;
-    padding-left:10px;
+    border: none;
+    padding-left: 10px;
 }
-/****form element********/ 
-.aba{
+
+/****form element********/
+.aba {
     margin-bottom: 30px;
-    margin-top:30px;
+    margin-top: 30px;
 }
-.frm{
-    margin-top:7px;
-    margin-bottom:7px;
+
+.frm {
+    margin-top: 7px;
+    margin-bottom: 7px;
     background-color: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
 }
-.frml{
-    margin-top:100px;
-    margin-bottom:30px;
+
+.frml {
+    margin-top: 100px;
+    margin-bottom: 30px;
     background-color: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
 }
-.ser{
-  transition: width 0.4s ease-in-out;
+
+.ser {
+    transition: width 0.4s ease-in-out;
 }
-.ser:focus{
-    width:150%;
-    
+
+.ser:focus {
+    width: 150%;
+
 }
-.icp{
-    position:absolute;
-   right:0%;
+
+.icp {
+    position: absolute;
+    right: 0%;
 }
-footer{
-    
-    
+
+footer {
+
+
     height: auto;
     text-align: center;
-    color:white;
+    color: white;
     background-color: Tomato;
-    
+
 }
+
+/********profile section********/
+.pfv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+}
+
 /********Mobile view************/
 @media only screen and (max-width: 600px) {
-    .spd{
-        margin-left:0px;
+    .spd {
+        margin-left: 0px;
         margin-right: 0px;
     }
-    .fbdy{
+
+    .fbdy {
         margin: 10px;
     }
-    .ser{
-       margin-left: 0;
-        margin-right:10px;
-    }   
-.ser:focus{
-    width:130%;
-}
-    .sbo{
-        display:inline;
-        margin-left:0px;
-        padding-right:240px;
+
+    .ser {
+        margin-left: 0;
+        margin-right: 10px;
     }
-    .icp{
-        position:absolute;
-        right:10%;
-        bottom:0.01%;
-        
-        
+
+    .ser:focus {
+        width: 130%;
     }
-.frml{
-    margin-top:45px;
-        
-}
-    footer{
+
+    .sbo {
+        display: inline;
+        margin-left: 0px;
+        padding-right: 240px;
+    }
+
+    .icp {
+        position: absolute;
+        right: 10%;
+        bottom: 0.01%;
+
+
+    }
+
+    .frml {
+        margin-top: 45px;
+
+    }
+
+    .scard {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .spd {
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+
+    footer {
         position: relative;
     }
 }
