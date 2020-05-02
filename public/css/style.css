@@ -1,109 +1,120 @@
-/***navigation hader****/
-header {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.fbdy {
-    margin: 10px;
-
-}
-
-.fhd {
-    margin-left: 300px;
-}
-
-.nvh {
-    margin: auto;
 
 
-}
+    /***navigation hader****/
+    header {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
-/********shop list style*********/
-.scrd {
-    padding: 10px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
-    margin: 10px;
+    .fbdy {
+        margin: 10px;
 
-}
+    }
 
-.spd {
-    padding-left: 190px;
-    padding-top: 30px;
-}
+    .fhd {
+        margin-left: 300px;
+    }
 
-
-/********icon pack***********/
-.fa-heart {
-    color: red;
-    background-color: transparent;
-    border: none;
-    padding-right: 10px;
-}
-
-.fa-user-circle {
-    color: black;
-    background-color: transparent;
-    border: none;
-    padding-left: 10px;
-}
-
-/****form element********/
-.aba {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.frm {
-    margin-top: 7px;
-    margin-bottom: 7px;
-    background-color: white;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
-}
-
-.frml {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    background-color: white;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
-}
-
-.ser {
-    transition: width 0.4s ease-in-out;
-}
-
-.ser:focus {
-    width: 150%;
-
-}
-
-.icp {
-    position: absolute;
-    right: 0%;
-}
-
-footer {
+    .nvh {
+        margin: auto;
 
 
-    height: auto;
-    text-align: center;
-    color: white;
-    background-color: Tomato;
+    }
 
-}
+    /********shop list style*********/
+    .scrd {
+        padding: 10px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+        margin: 10px;
 
-/********profile section********/
-.pfv {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    }
 
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
-}
+    .spd {
+        padding-left: 190px;
+        padding-top: 30px;
+    }
+
+
+    /********icon pack***********/
+    .fa-heart {
+        color: red;
+        background-color: transparent;
+        border: none;
+        padding-right: 10px;
+    }
+
+    .fa-user-circle {
+        color: black;
+        background-color: transparent;
+        border: none;
+        padding-left: 10px;
+    }
+
+    /****form element********/
+    .aba {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .frm {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        background-color: white;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .frml {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        background-color: white;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .ser {
+        transition: width 0.4s ease-in-out;
+    }
+
+    .ser:focus {
+        width: 150%;
+
+    }
+
+    .icp {
+        position: absolute;
+        right: 0%;
+    }
+
+    footer {
+
+
+        height: auto;
+        text-align: center;
+        color: white;
+        background-color: Tomato;
+
+    }
+
+    /********profile section********/
+    .pfv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    /*******product photo frame***********/
+    .cstl {
+        border-radius: 8px;
+        box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.19), 10px 10px 20px 10px rgba(0, 0, 0, 0.19), 10px 10px 20px 10px rgba(0, 0, 0, 0.19), 10px 10px 20px 10px rgba(0, 0, 0, 0.19);
+    }
+
 
 /********Mobile view************/
 @media only screen and (max-width: 600px) {
+
     .spd {
-        margin-left: 0px;
-        margin-right: 0px;
+
+        padding-left: 0px;
+        margin: 0px;
     }
 
     .fbdy {
